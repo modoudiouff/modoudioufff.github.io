@@ -1,0 +1,72 @@
+*{ 
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+    
+}
+a.p{ 
+    text-decoration: none;
+}
+body{ 
+    display: inline-block;
+    background-size: cover;
+    font-family: 'poppins', sans-serif;
+}
+header{ 
+    height: 100px;
+    background-color: palevioletred;
+    width: 203%;
+    z-index: 10;
+    
+}
+.logo { 
+    width: 10%;
+    float: left;
+    line-height: 100px;
+}
+.logo a{ 
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color:black;
+    letter-spacing: 5px;
+}
+nav{ 
+    float: right;
+    line-height: 100px;
+}
+nav a{ 
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 25px;
+    margin: 10px;
+    color:black;
+    letter-spacing: 1px;
+}
+.baniere{ 
+    width: 100%;
+    height: 900px;
+    position: fixed;
+    top: 100px;
+    background-image: url(c.JPG);
+    -webkit-background-size: cover ;
+    background-size: cover;
+    background-position: center center;   
+}
+.baniere h2{ 
+    padding-top: 8%;
+    font-size: 70px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: black;
+    text-align: center
+}
+.baniere h3{ 
+    color: black;
+    text-align: center;
+}
+
+
